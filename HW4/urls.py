@@ -11,5 +11,6 @@ urlpatterns = [
     path('api/v1/reviews/<int:id>/', views.get_review),
     path('api/v1/director/', views.director_list_view),
     path('api/v1/director/<int:id>/', views.get_director),
+    path('api/v1/movies/reviews/', views.movie_reviews_view),
 
 ]
